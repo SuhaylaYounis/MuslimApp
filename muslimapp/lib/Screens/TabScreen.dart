@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_point_tab_bar/pointTabIndicator.dart';
 import 'package:muslimapp/BottomSheetInfo.dart';
-import 'package:muslimapp/HomeScreen.dart';
+import 'package:muslimapp/Screens/HomeScreen.dart';
 import 'package:muslimapp/PrayerTimes.dart';
-import 'package:muslimapp/WerdScreen.dart';
+import 'package:muslimapp/Screens/WerdScreen.dart';
 
 class TabScreen extends StatefulWidget {
   const TabScreen({Key? key}) : super(key: key);
@@ -37,7 +37,7 @@ class _TabScreenState extends State<TabScreen>
         backgroundColor: Color.fromRGBO(72, 201, 176, 1),
         centerTitle: true,
         title: Text(
-          "muslim pro",
+          "Azkar Muslim",
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 24,

@@ -21,6 +21,7 @@ class _NewCardState extends State<NewCard> {
   Color black =Colors.black;
   @override
   Widget build(BuildContext context) {
+
     return Card(
       color: mintColor,
       shape: RoundedRectangleBorder(
@@ -30,10 +31,11 @@ class _NewCardState extends State<NewCard> {
             topRight: Radius.circular(20),
             topLeft: Radius.circular(20),
           )),
+
       child: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.all(5.0),
+            padding: const EdgeInsets.all(10.0),
             child: Text(
               "${widget.txt}",
               style: TextStyle(
